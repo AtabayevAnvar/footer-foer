@@ -1,0 +1,96 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;	
+}
+body{
+	background: white;
+
+}
+footer{
+	position: absolute;
+	bottom: 0;
+	background: black;
+	height: auto;
+	width: 100vw;
+	font-family: "Open Sans";
+	padding-top: 40px;
+	color: #fff;	
+}
+.footer-content{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+}
+.footer-content h3{
+	font-size: 45px;
+	font-weight: 400;
+	text-transform: capitalize;
+	line-height: 48px;
+	background: linear-gradient(to top, red, yellow);
+	-webkit-background-clip: text; 
+	-webkit-text-fill-color: transparent;
+}
+.footer-content p{
+	max-width: 500px;
+	margin: 10px auto;
+	line-height: 28px;
+	font-size: 14px;
+
+}
+.socials{
+	list-style: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 16px 0 48px 0;
+}
+.socials li{
+	margin: 0 10px;
+}
+.socials a{
+	text-decoration: none;
+	color: white;
+}
+.socials a i{
+	font-size: 25px;
+	transition: 0.4s;
+
+}
+  /* Socials networks gradient */
+			.socials a:hover #face{
+				color: #006CFF;
+			}
+			.socials a:hover #github{
+				color: #A3A4A4;
+			}
+			.socials a:hover #insta{
+				background-image: linear-gradient(to top right, #EA8C07, #F70B4B, #AF04E3);
+				-webkit-background-clip: text; 
+				-webkit-text-fill-color: transparent; 
+			}
+			.socials a:hover #yutub{
+				color: red;
+			}
+			.socials a:hover #tg{
+				color: #00FFF0;
+			}
+
+.footer-bottom{
+	background: black;
+	width: 100vw;
+	padding: 20px 0;
+	text-align: center;
+}
+.footer-bottom p{
+	font-size: 14px;
+	word-space: 2px;
+	text-transform: uppercase;
+}
+.footer-bottom span{
+	text-transform: uppercase;
+	opacity: .4;
+	font-weight: 200;
+}
