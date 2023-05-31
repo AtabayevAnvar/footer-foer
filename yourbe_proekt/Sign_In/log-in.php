@@ -9,16 +9,16 @@
 </head>
 <body>
         <div class="sign">
-            <form action="" method="post">
-                <a href="../index.html">
-                    <img src="../registration/logom.png" class="login">    
+            <form action="login.php" method="post">
+                <a href="../index.php">
+                    <img src="../registration/logom.png" >    
                 </a>
                 <h1>Tizimga kirish</h1>
                
-                <input type="text" placeholder="Foydalanuvchi nomi" name="username"id="login"><br>
+                <input type="text" placeholder="Foydalanuvchi nomi" name="username" id="login"><br>
                 <input type="password" placeholder="Parol" name="parol" id="pass"><br>
                
-                <a href="../registration/sign-in-page.html" class="login-text">Ro'yxatdan o'tish</a>
+                <a href="../registration/sign-in-page.php" class="login-text">Ro'yxatdan o'tish</a>
 
                 <button type="submit" name="submit" class="login-btn">Kirish</button>
                 
